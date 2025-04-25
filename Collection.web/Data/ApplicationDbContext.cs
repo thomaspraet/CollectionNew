@@ -9,5 +9,6 @@ namespace Collection.web.Data
             : base(options)
         {
         }
+        public DbSet<Artist> Artists { get; set; }
     }
 }
